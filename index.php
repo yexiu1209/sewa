@@ -32,13 +32,15 @@ include("koneksi.php");
                              ?>
                               <td><?=$no?></td>
                               <td><?=$row['nama_barang']?></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+                              <td><?=$row['stok']?></td>
+                              <td><?=$row['harga']?></td>
+                              <td><?=$row['tanggal_masuk']?></td>
+                              <td><?=$row['kondisi']?></td>
+                              <td><?=$row['status']?></td>
+                              <td><?=$row['jenis_barang']?></td>
+                              
+                              <td><a>edit</a>
+                    <a>delete</a></td>
                              <?php
                     $no++;         
                     }
