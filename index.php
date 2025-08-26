@@ -6,7 +6,9 @@
           <title>Document</title>
 </head>
 <body>
-          <table>
+          <a href="tambah_barang.php">tambah</a>
+          <table border="1">
+                    
                     <tr>
                               <th>no</th>
                               <th>Nama Jenis</th>
