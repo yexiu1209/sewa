@@ -1,8 +1,3 @@
-<?php
-include("koneksi.php");
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,6 +14,8 @@ include("koneksi.php");
                               <th>Action</th>
                     </tr>
                      <?php
+                     include("koneksi.php");
+
                              $no = 1;
                              $query = "SELECT * FROM jenis_barang ";
                              $sql = mysqli_query($koneksi, $query);
