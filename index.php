@@ -13,15 +13,15 @@ include("koneksi.php");
 <body>
           <table>
                     <tr>
-                              <td>no</td>
-                              <td>Nama Barang</td>
-                              <td>Harga</td>
-                              <td>Stok</td>
-                              <td>Tanggal Masuk</td>
-                              <td>Kondisi</td>
-                              <td>Status</td>
-                              <td>Jenis Barang</td>
-                              <td>Action</td>
+                              <th>no</th>
+                              <th>Nama Barang</th>
+                              <th>Harga</th>
+                              <th>Stok</th>
+                              <th>Tanggal Masuk</th>
+                              <th>Kondisi</th>
+                              <th>Status</th>
+                              <th>Jenis Barang</th>
+                              <th>Action</th>
                     </tr>
                     <tr>
                               <?php
