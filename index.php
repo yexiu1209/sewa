@@ -6,6 +6,6 @@
           <title>Document</title>
 </head>
 <body>
-selamat datng di halaman ini 
+selamat datang di halaman ini 
 </body>
 </html>
