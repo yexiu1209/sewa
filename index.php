@@ -14,31 +14,22 @@ include("koneksi.php");
           <table>
                     <tr>
                               <th>no</th>
-                              <th>Nama Barang</th>
-                              <th>Harga</th>
-                              <th>Stok</th>
-                              <th>Tanggal Masuk</th>
-                              <th>Kondisi</th>
-                              <th>Status</th>
-                              <th>Jenis Barang</th>
+                              <th>Nama Jenis</th>
+                              <th>Keterangan</th>
                               <th>Action</th>
                     </tr>
-                    <tr>
-                              <?php
+                     <?php
                              $no = 1;
-                             $query = "SELECT * FROM barang JOIN jenis_barang ON barang.jenis_barang = jenis_barang.id ";
+                             $query = "SELECT * FROM jenis_barang ";
                              $sql = mysqli_query($koneksi, $query);
                              while ($row = mysqli_fetch_array($sql)) {
                              ?>
+                    <tr>
+                             
                               <td><?=$no?></td>
-                              <td><?=$row['nama_barang']?></td>
-                              <td><?=$row['stok']?></td>
-                              <td><?=$row['harga']?></td>
-                              <td><?=$row['tanggal_masuk']?></td>
-                              <td><?=$row['kondisi']?></td>
-                              <td><?=$row['status']?></td>
-                              <td><?=$row['jenis_barang']?></td>
-                              
+                              <td><?=$row['nama_jenis']?></td>
+                              <td><?=$row['ketereangan']?></td>
+
                               <td><a>edit</a>
                     <a>delete</a></td>
                              <?php
