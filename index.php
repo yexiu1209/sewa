@@ -17,7 +17,7 @@
                      include("koneksi.php");
 
                              $no = 1;
-                             $query = "SELECT * FROM jenis_barang ";
+                             $query = "SELECT * FROM jenis_barang  ";
                              $sql = mysqli_query($koneksi, $query);
                              while ($row = mysqli_fetch_array($sql)) {
                              ?>
